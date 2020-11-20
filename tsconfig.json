@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    // 不生成文件，只做类型检查
+    "noEmit": true
+  },
+}
