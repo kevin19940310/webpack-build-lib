@@ -3,5 +3,5 @@ body {
   height: 100px;
   background-color: #ccc;
   display: flex;
-  background-image: url(../images/1.png);
+  background-image: url(../../assets/images/1.png);
 }

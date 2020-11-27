@@ -1,14 +1,16 @@
 module.exports = {
-  parser: "babel-eslint",
-  extends: [
-    "airbnb-base",
-    "prettier",
-    "prettier/@typescript-eslint",
-    "prettier/react",
-    "prettier/unicorn",
-  ],
-  env: {
-    browser: true,
-    node: true,
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
+  rules: {
+    'no-var': 'error',
+    'no-extra-semi': 'error',
+    '@typescript-eslint/indent': ['error', 2],
+  },
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      modules: true,
+    },
   },
 };

@@ -1,4 +1,3 @@
-export default function name(params) {
-  console.log(params);
+export default function name(parameters) {
+  console.log(parameters);
 }
-const a = 2;
